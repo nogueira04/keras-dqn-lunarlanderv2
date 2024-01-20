@@ -35,6 +35,6 @@ if __name__ == "__main__":
 
         print(f"Episode {i}: score = {score}, avg_score = {avg_score}, epsilon = {agent.epsilon}")
 
-    filename = "lunarlander_tf2.png"
+    filename = "lunarlanderv2.png"
     x = [i + 1 in range(n_games)]
     plot_learning(x, scores, eps_history, filename)
